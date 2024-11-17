@@ -3,17 +3,21 @@ h1 { /* */
     justify-content: center; /* */
     background-color: black; /* */
     color: aliceblue; /* */
-    font-size: 45px; /* */
-    height: 65px; /* */
+    font-size: 40px; /* */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    font-style: italic; /* Estilo da fonte (itálico) */
+    height: 52px; /* */
     padding: 1px 2px 3px 4px; /* */
     border: 4px solid rgb(85, 0, 0); /* */
     margin: 0; /* */
     box-sizing: border-box; /* */
+
 }
 header li { /* */
     justify-content: center; /* */
     display: inline; /* */
-    margin: 100px; /* */
+    margin: 90px; /* */
     font-family: Arial, sans-serif; /* Define a fonte */
     font-size: 20px; /* Tamanho da fonte */
     font-weight: bold; /* Peso da fonte (negrito) */
@@ -47,7 +51,7 @@ body { /* */
 #sports h2{ /* */
     background-color: black; /* */
     color: aliceblue; /* */
-    height: 45px; /* */
+    height: 43px; /* */
     padding: 1px 2px 3px 4px; /* */
     border: 4px solid rgb(85, 0, 0); /* */
     margin: 0; /* */
@@ -59,7 +63,7 @@ body { /* */
 #economyc h2 {
     background-color: black; /* */
     color: aliceblue; /* */
-    height: 45px; /* */
+    height: 43px; /* */
     padding: 1px 2px 3px 4px; /* */
     border: 4px solid rgb(85, 0, 0); /* */
     margin: 0; /* */
@@ -71,7 +75,7 @@ body { /* */
 #technology h2{
     background-color: black; /* */
     color: aliceblue; /* */
-    height: 45px; /* */
+    height: 43px; /* */
     padding: 1px 2px 3px 4px; /* */
     border: 4px solid rgb(85, 0, 0); /* */
     margin: 0; /* */
@@ -83,7 +87,7 @@ body { /* */
 #education h2 {
     background-color: black; /* */
     color: aliceblue; /* */
-    height: 45px; /* */
+    height: 43px; /* */
     padding: 1px 2px 3px 4px; /* */
     border: 4px solid rgb(85, 0, 0); /* */
     margin: 0; /* */
@@ -91,6 +95,7 @@ body { /* */
     display: flex; /* */
     justify-content: center; /* */
     font-size: 30px; 
+}
 .time {
     color: hwb(0 20% 80%); /* */
 }
