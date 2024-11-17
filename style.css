@@ -1,88 +1,96 @@
-h1 {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: aliceblue;
-    height: 49px;
-    padding: 1px 2px 3px 4px;
-    border: 4px solid rgb(85, 0, 0);
-    margin: 0;
-    box-sizing: border-box;
+h1 { /* */
+    display: flex; /* */
+    justify-content: center; /* */
+    background-color: black; /* */
+    color: aliceblue; /* */
+    font-size: 45px; /* */
+    height: 65px; /* */
+    padding: 1px 2px 3px 4px; /* */
+    border: 4px solid rgb(85, 0, 0); /* */
+    margin: 0; /* */
+    box-sizing: border-box; /* */
 }
-header li {
-    justify-content: center;
-    display: inline;
-    margin: 120px;
+header li { /* */
+    justify-content: center; /* */
+    display: inline; /* */
+    margin: 100px; /* */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    font-style: italic; /* Estilo da fonte (itálico) */
+    color: #333; /* Cor do texto */
 
-    
 }
-.container {
-    width: 1366px;
-    margin: 0 auto;
+.container { /* */
+    width: 1366px; /* */
+    margin: 0 auto; /* */
 }
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.articles article img {
-    height: 450px
-}
-.articles article {
-    width: 45%;
+.articles { /* */
+    display: flex; /* */
+    flex-wrap: wrap; /* */
+    justify-content: space-between; /* */
 }
 
-.direcionadores {
-    color: rgb(85, 0, 0);
+.articles article img { /* */
+    height: 450px /* */
 }
-body {
-    background-color: rgb(207, 207, 207);
+.articles article { /* */
+    width: 45%; /* */
 }
-#sports h2{
-    background-color: black;
-    color: aliceblue;
-    height: 37px;
-    padding: 1px 2px 3px 4px;
-    border: 4px solid rgb(85, 0, 0);
-    margin: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
+
+.direcionadores { /* */
+    color: rgb(85, 0, 0); /* */
+}
+body { /* */
+    background-color: rgb(207, 207, 207); /* */
+} 
+#sports h2{ /* */
+    background-color: black; /* */
+    color: aliceblue; /* */
+    height: 45px; /* */
+    padding: 1px 2px 3px 4px; /* */
+    border: 4px solid rgb(85, 0, 0); /* */
+    margin: 0; /* */
+    box-sizing: border-box; /* */
+    display: flex; /* */
+    justify-content: center; /* */
+    font-size: 30px; 
 }
 #economyc h2 {
-    background-color: black;
-    color: aliceblue;
-    height: 37px;
-    padding: 1px 2px 3px 4px;
-    border: 4px solid rgb(85, 0, 0);
-    margin: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
+    background-color: black; /* */
+    color: aliceblue; /* */
+    height: 45px; /* */
+    padding: 1px 2px 3px 4px; /* */
+    border: 4px solid rgb(85, 0, 0); /* */
+    margin: 0; /* */
+    box-sizing: border-box; /* */
+    display: flex; /* */
+    justify-content: center; /* */
+    font-size: 30px; 
 }
 #technology h2{
-    background-color: black;
-    color: aliceblue;
-    height: 37px;
-    padding: 1px 2px 3px 4px;
-    border: 4px solid rgb(85, 0, 0);
-    margin: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
+    background-color: black; /* */
+    color: aliceblue; /* */
+    height: 45px; /* */
+    padding: 1px 2px 3px 4px; /* */
+    border: 4px solid rgb(85, 0, 0); /* */
+    margin: 0; /* */
+    box-sizing: border-box; /* */
+    display: flex; /* */
+    justify-content: center; /* */
+    font-size: 30px; 
 }
 #education h2 {
-    background-color: black;
-    color: aliceblue;
-    height: 37px;
-    padding: 1px 2px 3px 4px;
-    border: 4px solid rgb(85, 0, 0);
-    margin: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-}
+    background-color: black; /* */
+    color: aliceblue; /* */
+    height: 45px; /* */
+    padding: 1px 2px 3px 4px; /* */
+    border: 4px solid rgb(85, 0, 0); /* */
+    margin: 0; /* */
+    box-sizing: border-box; /* */
+    display: flex; /* */
+    justify-content: center; /* */
+    font-size: 30px; 
 .time {
-    color: hwb(0 20% 80%);
+    color: hwb(0 20% 80%); /* */
 }
