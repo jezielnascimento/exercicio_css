@@ -5,6 +5,25 @@ h1 {
     margin: 0;
     box-sizing: border-box;
 }
+header li {
+    display: inline-table;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 450px
+}
+.articles article {
+    width: 45%;
+}
 
 .direcionadores {
     color: rgb(85, 0, 0);
