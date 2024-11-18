@@ -36,6 +36,8 @@ header li { /* */
 }
 
 .articles article img { /* */
+    margin-top: 0px;
+    margin-bottom: 0px;
     height: 450px /* */
 }
 .articles article { /* */
@@ -64,6 +66,11 @@ h2{ /* */
     color: hwb(0 20% 80%); /* */
     margin: 0px;
 }
+
+p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+} 
 h3 {
     margin-top: 0px;
     margin-bottom: 8px;
