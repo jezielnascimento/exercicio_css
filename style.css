@@ -3,24 +3,28 @@ h1 { /* */
     justify-content: center; /* */
     background-color: black; /* */
     color: aliceblue; /* */
-    font-size: 45px; /* */
-    height: 65px; /* */
-    padding: 1px 2px 3px 4px; /* */
-    border: 4px solid rgb(85, 0, 0); /* */
-    margin: 0; /* */
+    font-size: 40px; /* */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    font-style: italic; /* Estilo da fonte (itálico) */
+    height: 60px; /* */
+    padding: 0px 2px 3px 4px; /* */
+    border: 8px solid rgb(85, 0, 0); /* */
+    margin: 0px; /* */
     box-sizing: border-box; /* */
+
 }
 header li { /* */
     justify-content: center; /* */
     display: inline; /* */
-    margin: 100px; /* */
+    margin: 90px; /* */
     font-family: Arial, sans-serif; /* Define a fonte */
     font-size: 20px; /* Tamanho da fonte */
     font-weight: bold; /* Peso da fonte (negrito) */
     font-style: italic; /* Estilo da fonte (itálico) */
     color: #333; /* Cor do texto */
+}   
 
-}
 .container { /* */
     width: 1366px; /* */
     margin: 0 auto; /* */
@@ -32,6 +36,8 @@ header li { /* */
 }
 
 .articles article img { /* */
+    margin-top: 0px;
+    margin-bottom: 0px;
     height: 450px /* */
 }
 .articles article { /* */
@@ -44,34 +50,10 @@ header li { /* */
 body { /* */
     background-color: rgb(207, 207, 207); /* */
 } 
-#sports h2{ /* */
+h2{ /* */
     background-color: black; /* */
     color: aliceblue; /* */
-    height: 45px; /* */
-    padding: 1px 2px 3px 4px; /* */
-    border: 4px solid rgb(85, 0, 0); /* */
-    margin: 0; /* */
-    box-sizing: border-box; /* */
-    display: flex; /* */
-    justify-content: center; /* */
-    font-size: 30px; 
-}
-#economyc h2 {
-    background-color: black; /* */
-    color: aliceblue; /* */
-    height: 45px; /* */
-    padding: 1px 2px 3px 4px; /* */
-    border: 4px solid rgb(85, 0, 0); /* */
-    margin: 0; /* */
-    box-sizing: border-box; /* */
-    display: flex; /* */
-    justify-content: center; /* */
-    font-size: 30px; 
-}
-#technology h2{
-    background-color: black; /* */
-    color: aliceblue; /* */
-    height: 45px; /* */
+    height: 42px; /* */
     padding: 1px 2px 3px 4px; /* */
     border: 4px solid rgb(85, 0, 0); /* */
     margin: 0; /* */
@@ -91,12 +73,6 @@ body { /* */
     display: flex; /* */
     justify-content: center; /* */
     font-size: 30px; 
-}
-p {
-    margin-top: 0px;
-    margin-bottom: 8px;
-}
-h3 {
-    margin-top: 8px;
-    margin-bottom: 2px;
+.time {
+    color: hwb(0 20% 80%); /* */
 }
